@@ -315,8 +315,12 @@ export default function BitGoPage() {
                 </p>
             </div>
           </ModalBody>
-          <ModalFooter className="p-8">
-            <Button color="danger" variant="light" className="font-bold" onPress={onWithdrawClose}>
+          <ModalFooter className="p-8 gap-3 flex-wrap">
+            <Button
+              variant="bordered"
+              className="font-bold h-14 px-8 rounded-2xl border-2 border-slate-200 text-slate-600 hover:bg-slate-50 hover:border-slate-300"
+              onPress={onWithdrawClose}
+            >
               Cancel
             </Button>
             <Button 
