@@ -428,6 +428,11 @@ npm run dev   # http://localhost:5173
 - Run **`vercel dev`** so both the app and API run together, or  
 - Run a separate API server and set **`VITE_BACKEND_URL`** in `.env` to that server (e.g. `http://localhost:3000`).
 
+**If Supabase fails after running `vercel dev`** (`net::ERR_NAME_NOT_RESOLVED`, "Error creating payment link"): `vercel dev` injects env from your **Vercel project** (Development). If the linked project has no or wrong `VITE_SUPABASE_URL` / `VITE_SUPABASE_ANON_KEY`, they override your local `.env` and the app can’t reach Supabase. Fix it by either:
+
+- Using **`npm run dev`** for day-to-day local work (payment links, dashboard, Send/Withdraw) so Vite uses your local `.env`, or  
+- Adding the same Supabase (and other) vars to the Vercel project: **Project → Settings → Environment Variables**, add `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY` for **Development**, then run `vercel dev` again.
+
 ---
 
 ## 🧩 Project Structure (Key Folders)
