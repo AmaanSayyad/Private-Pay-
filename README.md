@@ -9,9 +9,9 @@ Simply means “Stealth Crypto Payments using multilayer forks”
 |---|------|
 | **Pitch deck** | [Private-Pay (Google Slides)](https://docs.google.com/presentation/d/1i_ZRVzjbjkXesqM678vyouuYk2o7o2z_gGqPZtqmkkE/edit?usp=sharing) |
 | **GitHub** | [AmaanSayyad/Private-Pay-](https://github.com/AmaanSayyad/Private-Pay-) |
-| **Live link** | 
+| **Live link** | [https://private-pay-iqgp.vercel.app/](https://private-pay-iqgp.vercel.app/) | 
 | **Treasury (Base Sepolia)** | [`0x71197e7a1CA5A2cb2AD82432B924F69B1E3dB123`](https://sepolia.basescan.org/address/0x71197e7a1CA5A2cb2AD82432B924F69B1E3dB123) — [View on BaseScan](https://sepolia.basescan.org/address/0x71197e7a1CA5A2cb2AD82432B924F69B1E3dB123) |
-| **Demo video** | Your demo link |
+| **Demo video** | [Live app](https://private-pay-iqgp.vercel.app/) |
 
 ---
 

@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "repository": "https://github.com/AmaanSayyad/Private-Pay-",
-  "homepage": "https://github.com/AmaanSayyad/Private-Pay-#readme",
+  "homepage": "https://private-pay-iqgp.vercel.app",
   "overrides": {
     "readable-stream": "^3.6.2"
   },
